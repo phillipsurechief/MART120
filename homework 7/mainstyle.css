@@ -1,0 +1,25 @@
+div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aquamarine;
+}
+
+
+span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color: darkred;
+}
+
+
+.myclass{
+    font-size: xx-large;
+    color: lime;
+    font-weight: bolder;
+}
+
+
+#myID{
+    font-size: larger;
+    color: blueviolet;
+    font-weight: bold;
+}

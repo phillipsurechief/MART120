@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Third page</title>
+    </head>
+    <body>
+      <h1>Third page</h1>
+      <script>
+        function checkbox()
+        {
+           var firstName = document.getElementById("fName").value;
+           var lastName = document.getElementById("lName").value;
+           var Email = document.getElementById("Email").value;
+           var terms = document.getElementById("Yes").checked;
+           
+           if(firstName == "")
+
+           {
+             document.getElementById("fName").style.backgroundColor = "red";
+             document.getElementById("fName").focus();
+           }
+           if(lastName == "")
+           {
+             document.getElementById("lName").style.backgroundColor = "red";
+             document.getElementById("lName").focus();
+           }
+           if(Email == "")
+           {
+             document.getElementById("Email").style.backgroundColor = "red";
+             document.getElementById("Email").focus();
+           }
+           if(terms == false)
+           {
+            window.alert(("Please agree to the terms"))
+           }
+        }
+      </script>
+      <br>
+      <br>
+     
+        First Name: <input type="text" id="fName"><br>
+        Last Name: <input type="text" id="lName"><br>
+        Email Adress: <input type="text" id="Email"><br>
+        <button class="myClass" id="mySubmit" type="button" onclick="checkbox ()">Submit</button>
+   
+    <br>
+    <h2>Accept terms of agreement</h2>
+<input type="checkbox" id="Yes" name="Yes" value="Yes">Yes<br>
+<input type="checkbox" id="No" name="No" value="No">No<br>
+    <br>
+    <br>
+   <div><a href="Index.html"><id="myID">Index Page</a><br></body></html></div>
+    <a href="Second.html">Second page</a><br>
+    <a href="game.html">game page</a>
+    </body>
+</html>
