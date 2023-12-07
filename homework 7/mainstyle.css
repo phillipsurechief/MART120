@@ -1,6 +1,10 @@
+body {
+    background-image: url("shoes.jpeg");
+}
+
 div{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aquamarine;
+    color: rgb(238, 6, 6);
 }
 
 
